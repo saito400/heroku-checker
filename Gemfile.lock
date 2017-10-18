@@ -1,12 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    mini_portile2 (2.3.0)
+    nokogiri (1.8.1)
+      mini_portile2 (~> 2.3.0)
     slack-notifier (2.3.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  nokogiri
   slack-notifier
 
 BUNDLED WITH
